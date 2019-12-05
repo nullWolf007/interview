@@ -80,6 +80,10 @@
 
 ## 3. 关于 JVM JDK 和 JRE 最详细通俗的解答
 
+* JDK（Java Development Kit）是针对Java开发员的产品，是整个Java的核心，包括了Java运行环境JRE、Java工具和Java基础类库。
+* Java Runtime Environment（JRE）是运行JAVA程序所必须的环境的集合，包含JVM标准实现及Java核心类库。
+* JVM是Java Virtual Machine（Java虚拟机）的缩写，是整个java实现跨平台的最核心的部分，能够运行以Java语言写作的软件程序。
+
 [**JVM**](https://github.com/nullWolf007/Notes/tree/master/Java/Java%E7%9F%A5%E8%AF%86%E7%B2%BE%E5%8D%8E/jvm)
 
 Java虚拟机（JVM）是运行 Java 字节码的虚拟机。JVM有针对不同系统的特定实现（Windows，Linux，macOS），目的是使用相同的字节码，它们都会给出相同的结果。
@@ -139,7 +143,7 @@ JRE 是 Java运行时环境。它是运行已编译 Java 程序所需的所有�
 
 ## 6. 什么是 Java 程序的主类 应用程序和小程序的主类有何不同?
 
-一个程序中可以有多个类，但只能有一个类是主类。在 Java 应用程序中，这个主类是指包含 main（）方法的类。而在 Java 小程序中，这个主类是一个继承自系统类 JApplet 或 Applet 的子类。应用程序的主类不一定要求是 public 类，但小程序的主类要求必须是 public 类。主类是 Java 程序执行的入口点。
+一个程序中可以有多个类，但只能有一个类是主类。在 Java 应用程序中，这个主类是指包含 main()方法的类。而在 Java 小程序中，这个主类是一个继承自系统类 JApplet 或 Applet 的子类。应用程序的主类不一定要求是 public 类，但小程序的主类要求必须是 public 类。主类是 Java 程序执行的入口点。
 
 ## 7. Java 应用程序与小程序之间有哪些差别?
 
@@ -199,7 +203,7 @@ JRE 是 Java运行时环境。它是运行已编译 Java 程序所需的所有�
 
 - 被final修饰的类和方法都不能被扩展(也就是继承重写啥的)
 
-## 12. String StringBuffer 和 StringBuilder 的区别是什么? String 为什么是不可变的?
+## 12. String,StringBuffer 和 StringBuilder 的区别是什么? String 为什么是不可变的?
 
 **可变性**
 
@@ -247,7 +251,6 @@ String 中的对象是不可变的，也就可以理解为常量，线程安全�
 ## 15. 在 Java 中定义一个不做事且没有参数的构造方法的作用
 
 Java 程序在执行子类的构造方法之前，如果没有用 `super() `来调用父类特定的构造方法，则会调用父类中“没有参数的构造方法”。因此，如果父类中只定义了有参数的构造方法，而在子类的构造方法中又没有用 `super() `来调用父类中特定的构造方法，则编译时将发生错误，因为 Java 程序在父类中找不到没有参数的构造方法可供执行。解决办法是在父类里加上一个不做事且没有参数的构造方法。
-　
 ## 16. import java和javax有什么区别？
 
 刚开始的时候 JavaAPI 所必需的包是 java 开头的包，javax 当时只是扩展 API 包来使用。然而随着时间的推移，javax 逐渐地扩展成为 Java API 的组成部分。但是，将扩展从 javax 包移动到 java 包确实太麻烦了，最终会破坏一堆现有的代码。因此，最终决定 javax 包将成为标准API的一部分。

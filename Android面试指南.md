@@ -171,18 +171,20 @@
 
 * 什么情况下会发生ANR
   
+    ```java
     KeyDispatchTimeout(5 seconds) --应用在五秒内未响应用户的触摸或按键事件
-      BroadcastTimeout(10 seconds) --BroadcastReceiver在十秒内无法处理完成
-      ServiceTimeout(20 secends) --小概率事件 Service在特定的时间内无法处理完成
-  
+    BroadcastTimeout(10 seconds) --BroadcastReceiver在十秒内无法处理完成
+    ServiceTimeout(20 secends) --小概率事件 Service在特定的时间内无法处理完成  
+    ```
+
 * 在主线程中执行哪些操作会导致ANR
   
-```java
+	```java
   高耗时的操作，如图像转换
   磁盘读写，数据库读写操作
   大量的创建新对象
-```
-  
+	```
+
 * 如何避免ANR
 
   ```java
@@ -190,10 +192,4 @@
   ·使用子线程处理耗时操作
   ·尽量使用handle来进行处理
   ```
-
-#### 4.JVM,JRE,JDK的区别和联系
-
-* JDK（Java Development Kit）是针对Java开发员的产品，是整个Java的核心，包括了Java运行环境JRE、Java工具和Java基础类库。
-* Java Runtime Environment（JRE）是运行JAVA程序所必须的环境的集合，包含JVM标准实现及Java核心类库。
-* JVM是Java Virtual Machine（Java虚拟机）的缩写，是整个java实现跨平台的最核心的部分，能够运行以Java语言写作的软件程序。
 
