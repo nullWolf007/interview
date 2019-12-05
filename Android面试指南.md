@@ -188,8 +188,22 @@
 * 如何避免ANR
 
   ```java
-  ·UI线程只做UI操作
-  ·使用子线程处理耗时操作
-  ·尽量使用handle来进行处理
+  UI线程只做UI操作
+  使用子线程处理耗时操作
+  尽量使用handler来进行处理
   ```
+
+#### 4.JVM和DVM和ART的比较
+
+* 详情请点击[JVM和DVM和ART的比较](https://github.com/nullWolf007/Notes/blob/master/Java/Java%E7%9F%A5%E8%AF%86%E7%B2%BE%E5%8D%8E/jvm/JVM%E5%92%8CDVM%E5%92%8CART%E7%9A%84%E6%AF%94%E8%BE%83.md)
+
+#### 5.Serializable和Parcelable相关
+
+* 详情请点击[Serializable和Parcelable的理解和区别](https://github.com/nullWolf007/Android/blob/master/Book/serializable%26parcelable.md)
+
+#### 6.Bundle和Intent传值
+
+* 详情请点击[关于Bundle和Intent传值](https://github.com/nullWolf007/Android/blob/master/Book/bundle%E5%92%8Cintent.md)
+
+#### 7.
 
