@@ -205,5 +205,5 @@
 
 * 详情请点击[关于Bundle和Intent传值](https://github.com/nullWolf007/Android/blob/master/Book/bundle%E5%92%8Cintent.md)
 
-#### 7.
+#### 7.Handler和Message和MessageQueue和Looper
 
