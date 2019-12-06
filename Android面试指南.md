@@ -154,6 +154,10 @@
 * RecyclerView必须使用使用ViewHolder，在RecyclerView中这是必要的；在ListView中ViewHolder是推荐的方式，没有也是可以的
 * RecyclerView动画设置比较简单，RecyclerView.ItemAnimator则被提供用于在RecyclerView添加、删除或移动item时处理动画效果。同时，如果你比较懒，不想自定义ItemAnimator，你还可以使用DefaultItemAnimator；而ListView比较麻烦，需要使用ViewPropertyAnimator属性动画来实现
 
+#### 12.Bundle和Intent传值
+
+* 详情请点击[关于Bundle和Intent传值](https://github.com/nullWolf007/Android/blob/master/%E5%9F%BA%E7%A1%80/bundle%E5%92%8Cintent.md)
+
 ### 安卓进阶篇
 
 #### 1.AIDL
@@ -201,15 +205,11 @@
 
 * 详情请点击[Serializable和Parcelable的理解和区别](https://github.com/nullWolf007/Android/blob/master/%E8%BF%9B%E9%98%B6/serializable%E5%92%8Cparcelable.md)
 
-#### 6.Bundle和Intent传值
-
-* 详情请点击[关于Bundle和Intent传值](https://github.com/nullWolf007/Android/blob/master/%E8%BF%9B%E9%98%B6/bundle%E5%92%8Cintent.md)
-
-#### 7.Handler和Message和MessageQueue和Looper
+#### 6.Handler和Message和MessageQueue和Looper源码解析
 
 * 详情请点击[Handler和Message和MessageQueue和Looper](https://github.com/nullWolf007/Android/blob/master/%E8%BF%9B%E9%98%B6/Handler%E5%92%8CMessage%E5%92%8CMessageQueue%E5%92%8CLooper.md)
 
-#### 8.Context深入理解及源码解析
+#### 7.Context深入理解及源码解析
 
 
 
