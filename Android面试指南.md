@@ -15,7 +15,7 @@
 * Activity，Service，BroadcastReceiver广播接收者，ContentProvider内容提供者
 
 #### 2.Activity的生命周期和相关问题
-![Activity的生命周期](https://github.com/mumucom/android/raw/master/image/0_1314838777He6C.gif.png)
+![Activity的生命周期](https://github.com/nullWolf007/images/raw/master/android/%E8%BF%9B%E9%98%B6/Activity%E7%9A%84%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.png)
 
 (1)各种场景Activity的生命周期：
 
@@ -49,7 +49,7 @@
 
 |                       Fragment生命周期                       |                        Fragment流程图                        |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| ![Fragment生命周期](https://github.com/mumucom/android/raw/master/image/20140719225005356.png) | ![Fragment流程图](https://github.com/mumucom/android/raw/master/image/FlowchartDiagram.jpg) |
+| ![Fragment生命周期](https://github.com/nullWolf007/images/raw/master/android/%E8%BF%9B%E9%98%B6/Fragment%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F.png) | ![Fragment流程图](https://github.com/nullWolf007/images/raw/master/android/%E8%BF%9B%E9%98%B6/Fragment%E6%B5%81%E7%A8%8B%E5%9B%BE.png) |
 
 (1)一个Activity可以有多个Fragment，一个Fragment可以在多个Activity中；可以动态的添加，替换和移除Fragment
 (2)静态的使用Fragment
@@ -80,7 +80,7 @@
 
 #### 6.Context的区别
 
-![Context](https://github.com/mumucom/android/raw/master/image/4892003-8a2fe7f887f73252.png)
+![Context](https://github.com/nullWolf007/images/raw/master/android/%E8%BF%9B%E9%98%B6/Context%E7%BB%A7%E6%89%BF%E5%85%B3%E7%B3%BB.png)
 
 (1)三类的Context：Activity，Service，Application(Application就是程序的上下文对象，只有一个)
 
@@ -119,7 +119,7 @@
 
 |                             MVC                              |                             MVP                              | MVVM                                                         |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | ------------------------------------------------------------ |
-| ![MVC](https://github.com/mumucom/android/raw/master/image/bg2015020105.png) | ![MVP](https://github.com/mumucom/android/raw/master/image/bg2015020109.png) | ![MVVM](https://github.com/mumucom/android/raw/master/image/bg2015020110.png) |
+| ![MVC](https://github.com/nullWolf007/images/raw/master/android/%E8%BF%9B%E9%98%B6/mvc.png) | ![MVP](https://github.com/nullWolf007/images/raw/master/android/%E8%BF%9B%E9%98%B6/mvp.png) | ![MVVM](https://github.com/nullWolf007/images/raw/master/android/%E8%BF%9B%E9%98%B6/MVVM.png) |
 
 (1)MVC
 
