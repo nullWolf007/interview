@@ -160,9 +160,9 @@
 
 ### 安卓进阶篇
 
-#### 1.AIDL
+#### 1.Android中Binder解析
 
-* AIDL(Android Interface Definition Language)：用于生成可以在Android设备上两个进程之间进行进程间通信(interprocess communication, IPC)的代码(只有当你允许来自不同的客户端访问你的服务并且需要处理多线程问题时你才必须使用AIDL)
+* 详情请点击[**Android跨进程IPC之Binde和AIDL**](https://github.com/nullWolf007/Android/blob/master/%E8%BF%9B%E9%98%B6/%E5%90%AF%E5%8A%A8%E7%9B%B8%E5%85%B3(Context%EF%BC%8C%E8%B7%A8%E8%BF%9B%E7%A8%8B%E7%AD%89)/Android%E8%B7%A8%E8%BF%9B%E7%A8%8BIPC%E4%B9%8BBinde%E5%92%8CAIDL.md)
 
 #### 2.OOM
 
@@ -203,11 +203,11 @@
 
 #### 5.Serializable和Parcelable相关
 
-* 详情请点击[Serializable和Parcelable的理解和区别](https://github.com/nullWolf007/Android/blob/master/%E8%BF%9B%E9%98%B6/serializable%E5%92%8Cparcelable.md)
+* 详情请点击[Serializable和Parcelable的理解和区别](https://github.com/nullWolf007/Android/blob/master/%E8%BF%9B%E9%98%B6/%E7%9B%B8%E4%BC%BC%E6%AF%94%E8%BE%83/serializable%E5%92%8Cparcelable.md)
 
 #### 6.Handler和Message和MessageQueue和Looper源码解析
 
-* 详情请点击[Handler和Message和MessageQueue和Looper](https://github.com/nullWolf007/Android/blob/master/%E8%BF%9B%E9%98%B6/Handler%E5%92%8CMessage%E5%92%8CMessageQueue%E5%92%8CLooper.md)
+* 详情请点击[Handler和Message和MessageQueue和Looper](https://github.com/nullWolf007/Android/blob/master/%E8%BF%9B%E9%98%B6/%E7%BA%BF%E7%A8%8B%E7%9B%B8%E5%85%B3/Handler%E5%92%8CMessage%E5%92%8CMessageQueue%E5%92%8CLooper.md)
 
 #### 7.Context深入理解及源码解析
 
@@ -221,9 +221,17 @@
 
 * 详情请点击[ActivityThread深入理解及源码解析](https://github.com/nullWolf007/Android/blob/master/%E8%BF%9B%E9%98%B6/%E5%90%AF%E5%8A%A8%E7%9B%B8%E5%85%B3(Context%EF%BC%8C%E8%B7%A8%E8%BF%9B%E7%A8%8B%E7%AD%89)/ActivityThread%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3%E5%8F%8A%E6%BA%90%E7%A0%81%E8%A7%A3%E6%9E%90.md)
 
-#### 10.Android中Binder解析
+#### 10.安全知识库
 
-* 详情请点击[Android中Binder解析](https://github.com/nullWolf007/Android/blob/master/%E8%BF%9B%E9%98%B6/%E5%90%AF%E5%8A%A8%E7%9B%B8%E5%85%B3(Context%EF%BC%8C%E8%B7%A8%E8%BF%9B%E7%A8%8B%E7%AD%89)/Android%E4%B8%ADBinder%E8%A7%A3%E6%9E%90.md)
+* 详情请点击[安全知识库](https://github.com/nullWolf007/Android/blob/master/%E8%BF%9B%E9%98%B6/%E5%AE%89%E5%85%A8%E7%9B%B8%E5%85%B3/%E5%AE%89%E5%85%A8%E7%9F%A5%E8%AF%86%E5%BA%93.md)
+
+#### 11.内存泄漏
+
+* 详情请点击[**内存泄漏相关**](https://github.com/nullWolf007/Android/blob/master/%E8%BF%9B%E9%98%B6/%E5%86%85%E5%AD%98%E7%9B%B8%E5%85%B3/%E5%86%85%E5%AD%98%E6%B3%84%E6%BC%8F%E7%9B%B8%E5%85%B3.md)
+
+#### 12.View的事件体系及原理
+
+* [**View的事件体系及原理**](https://github.com/nullWolf007/Android/blob/master/%E8%BF%9B%E9%98%B6/%E7%95%8C%E9%9D%A2%E7%9B%B8%E5%85%B3(View%2CUI%E6%8E%A7%E4%BB%B6%E7%AD%89)/View%E7%9A%84%E4%BA%8B%E4%BB%B6%E4%BD%93%E7%B3%BB%E5%8F%8A%E5%8E%9F%E7%90%86.md)
 
 
 
