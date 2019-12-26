@@ -231,7 +231,15 @@
 
 #### 12.View的事件体系及原理
 
-* [**View的事件体系及原理**](https://github.com/nullWolf007/Android/blob/master/%E8%BF%9B%E9%98%B6/%E7%95%8C%E9%9D%A2%E7%9B%B8%E5%85%B3(View%2CUI%E6%8E%A7%E4%BB%B6%E7%AD%89)/View%E7%9A%84%E4%BA%8B%E4%BB%B6%E4%BD%93%E7%B3%BB%E5%8F%8A%E5%8E%9F%E7%90%86.md)
+* 详情请点击[**View的事件体系及原理**](https://github.com/nullWolf007/Android/blob/master/%E8%BF%9B%E9%98%B6/%E7%95%8C%E9%9D%A2%E7%9B%B8%E5%85%B3(View%2CUI%E6%8E%A7%E4%BB%B6%E7%AD%89)/View%E7%9A%84%E4%BA%8B%E4%BB%B6%E4%BD%93%E7%B3%BB%E5%8F%8A%E5%8E%9F%E7%90%86.md)
+
+#### 13.RemoteViews解析
+
+* 详情请点击[**RemoteViews解析**](https://github.com/nullWolf007/Android/blob/master/%E8%BF%9B%E9%98%B6/%E7%95%8C%E9%9D%A2%E7%9B%B8%E5%85%B3(View%2CUI%E6%8E%A7%E4%BB%B6%E7%AD%89)/RemoteViews%E8%A7%A3%E6%9E%90.md)
+
+
+
+
 
 
 
