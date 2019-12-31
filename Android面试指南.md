@@ -237,6 +237,12 @@
 
 * 详情请点击[**RemoteViews解析**](https://github.com/nullWolf007/Android/blob/master/%E8%BF%9B%E9%98%B6/%E7%95%8C%E9%9D%A2%E7%9B%B8%E5%85%B3(View%2CUI%E6%8E%A7%E4%BB%B6%E7%AD%89)/RemoteViews%E8%A7%A3%E6%9E%90.md)
 
+#### 14. AAPT2解析
+
+* 详情请点击
+
+
+
 
 
 
