@@ -249,8 +249,8 @@
 
 * 详情请点击[**RxJava2教程**](https://github.com/nullWolf007/Android/blob/master/%E8%BF%9B%E9%98%B6/%E4%B8%89%E6%96%B9%E6%A1%86%E6%9E%B6%E7%AD%89%E8%AF%A6%E8%A7%A3/RxJava2%E6%95%99%E7%A8%8B.md)
 * 详情请点击[**Retrofit2教程**](https://github.com/nullWolf007/Android/blob/master/%E8%BF%9B%E9%98%B6/%E4%B8%89%E6%96%B9%E6%A1%86%E6%9E%B6%E7%AD%89%E8%AF%A6%E8%A7%A3/Retrofit2%E6%95%99%E7%A8%8B.md)
-
 * 详情请点击[**OkHttp详解**](https://github.com/nullWolf007/Android/raw/master/%E8%BF%9B%E9%98%B6/%E7%BD%91%E7%BB%9C%E7%9B%B8%E5%85%B3/OkHttp%E8%AF%A6%E8%A7%A3.md)
+* 详情请点击[**Android四种网络请求方式**](https://github.com/nullWolf007/Android/blob/master/%E8%BF%9B%E9%98%B6/%E7%BD%91%E7%BB%9C%E7%9B%B8%E5%85%B3/Android%E5%9B%9B%E7%A7%8D%E7%BD%91%E7%BB%9C%E8%AF%B7%E6%B1%82%E6%96%B9%E5%BC%8F.md)
 
 
 
